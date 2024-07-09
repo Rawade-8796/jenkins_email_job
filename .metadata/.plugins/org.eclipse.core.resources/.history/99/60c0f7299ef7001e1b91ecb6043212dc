@@ -1,0 +1,29 @@
+package basicRequest;
+
+import io.restassured.RestAssured;
+
+public class PUT_method {
+	
+	@Test
+	public void updateWorkspaceDetails() {
+		
+		RestAssured.baseURI="";
+		
+		Response.response = given()
+				            .body(" ")
+				           .when()
+				           .put()
+				           .then()
+				           .extract()
+				           .response();
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+
+}

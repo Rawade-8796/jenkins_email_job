@@ -1,0 +1,42 @@
+package basicRequest;
+
+import static io.restassured.RestAssured.*;
+
+import static io.restassured.response.Response.*;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class Post_creat_workspace {
+	
+	@Test
+	public void createWorkspaceMethod() {
+		
+		RestAssured.baseURI="https://api.getpostman.com";
+		
+		Response response = given()
+				            .headers("x-api-key","PMAK-661119d2b352b700011f0c0b-883fcd907f3da93335354237d57188a250")
+				            .body("{\\r\\n\"\r\n"
+				            		+ "		     					+ \"    \\\"workspace\\\": {\\r\\n\"\r\n"
+				            		+ "		     					+ \"        \\\"name\\\": \\\"Test10\\\",\\r\\n\"\r\n"
+				            		+ "		     					+ \"        \\\"type\\\": \\\"personal\\\",\\r\\n\"\r\n"
+				            		+ "		     					+ \"        \\\"description\\\": \\\"Test Workspace 10\\\"\\r\\n\"\r\n"
+				            		+ "		     					+ \"    }\\r\\n\"\r\n"
+				            		+ "		     					+ \"}")
+				           .when()
+				           .post()
+				           .then()
+				           .extract()
+				           .response();
+		
+		
+	String	final_output response.asPrettyString();
+		
+		
+		
+				       
+	}
+
+}

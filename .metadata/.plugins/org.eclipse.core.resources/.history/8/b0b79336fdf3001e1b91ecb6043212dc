@@ -1,0 +1,26 @@
+package basicRequest;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class GET_single_workspace {
+	
+	@Test
+	public void getWorkSpaceList() {
+	
+		RestAssured.baseURI="https://api.getpostman.com/";
+		
+		Response response =
+				.given()
+				.when()
+				.then()
+				.extract()
+				.response()
+		
+		
+		
+		
+		
+		
+	}
+}

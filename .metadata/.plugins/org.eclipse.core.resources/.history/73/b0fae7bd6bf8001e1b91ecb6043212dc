@@ -1,0 +1,39 @@
+package basicRequest;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import static  io.restassured.RestAssured.*;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
+public class CreateUser {
+
+
+	@Test(priority=1)
+	public void createAUser()
+	{
+	   RestAssured.baseURI="https://petstore.swagger/io/v2";
+	  Response response= given()
+	  .header("content-Type","application/json")
+	  .body("copy the body")
+	  .when()
+	  .post("/user")
+	  .then()
+	  .extract()
+	  .response();
+
+	String resp1=response.asPrettyString();	
+	System.out.println(resp1);
+
+	JsonPath jp=response.jsonPath(); // response is output which we receive after chaining method
+	int codevalue=jp.getInt("code");
+	System.out.println(codevalue);
+
+	String messageValue=jp.getString("message");
+	System.out.println("message value from API "+messageValue);
+
+	String typevalue=jp.getString("type"); // Unknown 
+	System.out.println(typevalue);
+	   
+}

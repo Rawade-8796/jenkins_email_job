@@ -1,0 +1,27 @@
+package basicRequest;
+
+import org.junit.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.response.Validatable;
+import io.restassured.response.ValidatableResponse;
+
+import static io.restassured.response.Response.*;
+
+public class Post_creat_workspace {
+	
+	@Test
+	public void createWorkspaceMethod() {
+		
+		RestAssured.baseURI="https://api.getpostman.com";
+		
+		Response response = given()
+				           .when()
+				           .then()
+				           .extract()
+				           .response()
+				       
+	}
+
+}

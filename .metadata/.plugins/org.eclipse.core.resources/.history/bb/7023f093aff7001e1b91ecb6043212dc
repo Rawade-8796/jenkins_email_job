@@ -1,0 +1,32 @@
+package basicRequest;
+
+import org.testng.annotations.Test;
+import static io.restassured.RestAssured.*;
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
+public class POST_CreateUser_SwaggerAPI {
+
+	  @Test
+	  public void getWorkspaceList()
+	  {
+		  	  RestAssured.baseURI="https://petstore.swagger.io";
+		  	  
+		  	  // Method Chaining 
+		  	  
+Response response=
+		  	  given()
+		  	  .when()
+		  	  .get("/v2/user/Test")
+		  	  .then()
+		  	  .extract()
+		  	  .response();
+
+				String final_output=response.asPrettyString();
+				System.out.println(final_output);
+				
+				//JsonPath js=response.jsonPath();
+				
+
+}

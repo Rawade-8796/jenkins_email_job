@@ -1,0 +1,36 @@
+package basicRequest;
+
+import static io.restassured.RestAssured.*;
+
+import static io.restassured.response.Response.*;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+
+public class PUT_method {
+	
+	@Test
+	public void updateWorkspaceDetails() {
+		
+		RestAssured.baseURI="https://reqres.in";
+		
+		Response.response = given()
+				            .body("")
+				            .when()
+				            .then()
+				            .extract()
+				            .response();
+		
+		
+		
+	}
+	
+	
+	
+	
+
+}
+

@@ -1,0 +1,25 @@
+package basicRequest;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class HEAD_headerDetails {
+	
+	@Test
+	public void getHeaderDetails()
+	{
+			RestAssured.baseURI="https://api.getpostman.com";
+			
+			Response response=
+			given()
+			.header("x-api-key","PMAK-661412070491ad0001d31827-ba0dc81e7fab084eb6ffeb06f4c71a30df")
+			.when()
+			.head("/workspaces")
+			.then()
+			.extract()
+			.response();
+
+}
+}
