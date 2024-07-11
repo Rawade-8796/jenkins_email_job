@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\velocity Training\setup\New_work_space\SimpleProject"/>
 			<item value="D:\velocity Training\setup\New_work_space\.metadata"/>
 			<item value="D:\velocity Training\setup\New_work_space\Maven_Project1"/>
 			<item value="C:\"/>
@@ -47,11 +48,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Java_email"/>
 			<item value="Cucumber_Project"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Java_email"/>
 			<item value="Cucumber_Project"/>
 		</list>
 		<list key="projectNameTemplate">
