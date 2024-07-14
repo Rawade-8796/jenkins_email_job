@@ -3229,3 +3229,22 @@ java.util.ConcurrentModificationException: null
 2024-07-11 08:08:03,451 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2024-07-11 08:08:03,452 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-07-11 08:08:03,453 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-14 13:35:31,786 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-14 13:43:38,965 [Worker-0: Launching Executing clean in D__velocity Training_setup_New_work_space_Maven_Project1] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\velocity Training\setup\New_work_space\Maven_Project1
+2024-07-14 13:43:38,995 [Worker-0: Launching Executing clean in D__velocity Training_setup_New_work_space_Maven_Project1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2024-07-14 13:43:59,926 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-14 13:43:59,926 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\velocity Training\setup\New_work_space\Maven_Project1\src\main\resources
+2024-07-14 13:43:59,931 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-14 13:43:59,931 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\velocity Training\setup\New_work_space\Maven_Project1\src\test\resources
+2024-07-14 13:48:32,568 [Worker-10: Launching Executing clean in D__velocity Training_setup_New_work_space_Maven_Project1] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\velocity Training\setup\New_work_space\Maven_Project1
+2024-07-14 13:48:32,569 [Worker-10: Launching Executing clean in D__velocity Training_setup_New_work_space_Maven_Project1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2024-07-14 13:48:41,731 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-14 13:48:41,731 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\velocity Training\setup\New_work_space\Maven_Project1\src\main\resources
+2024-07-14 13:48:41,732 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-14 13:48:41,732 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\velocity Training\setup\New_work_space\Maven_Project1\src\test\resources
+2024-07-14 13:48:48,507 [Worker-24: Launching Executing install in D__velocity Training_setup_New_work_space_Maven_Project1] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\velocity Training\setup\New_work_space\Maven_Project1
+2024-07-14 13:48:48,507 [Worker-24: Launching Executing install in D__velocity Training_setup_New_work_space_Maven_Project1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2024-07-14 13:49:03,221 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-14 13:49:03,222 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\velocity Training\setup\New_work_space\Maven_Project1\src\main\resources
+2024-07-14 13:49:03,225 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-14 13:49:03,225 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\velocity Training\setup\New_work_space\Maven_Project1\src\test\resources
